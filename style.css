@@ -375,7 +375,7 @@ header{
     row-gap: 75px;
     margin: 0 16px;
   }
-  .plants_lover{
+  .Plants_lover{
     flex-direction: column;
   }
   .plants_lover_left{
@@ -461,7 +461,7 @@ header{
   .paragraph1{
     margin-top: 16px;
   }
-  .footer_one,.footer_two, .footer_three{
+  .footer_one,.footer_two, .footer_three, .footer_four{
     margin-bottom: 32px;
   }
 }

@@ -4,9 +4,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Flower Market</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="inter-normal">
   <header>
     <nav class="navbar flex">
       <div class="logo">
@@ -14,9 +20,9 @@
       </div>
       <div class="navitems flex">
         <ul class="item flex">
-          <li class="links"><a href="">Home</a></li>
-          <li class="links"><a href="">Shop</a></li>
-          <li class="links"><a href="">About us</a></li>
+          <li class="links"><a href="" class="link">Home</a></li>
+          <li class="links"><a href="" class="link">Shop</a></li>
+          <li class="links"><a href="" class="link">About us</a></li>
         </ul>
         <div class="cart">
           <p><i></i> Cart ($56)</p>
@@ -26,9 +32,8 @@
     </nav>
     <div class="banner container flex">
       <div class="banner_left">
-        <h1 class="title1">ALWAYS FRESH</h1>
-        <h1 class="title2">FLOWERS</h1>
-        <p class="content">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion. </p>
+        <h1 class="title1 noto-serif-normal">ALWAYS <span class="yellow">FRESH <br>FLOWERS</span></h1>
+        <p class="paragraph">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion. </p>
       </div>
       <div class="banner_right">
         <img src="assets/hero-flower.png" alt="">
@@ -38,8 +43,10 @@
   <main>
     <section class="our_plants container">
       <div class="section_top">
-        <h3 class="section_title">Our Plants</h3>
-        <p class="content">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</p>
+        <h3 class="section_title noto-serif-normal title"><span class="yellow">Our </span>Plants</h3>
+        <div class="top_paragraph">
+          <p class="paragraph">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</p>
+        </div>
       </div>
       <div class="botom_section">
         <div class="our_plants_card">
@@ -124,11 +131,99 @@
         </div>
       </div>
     </section>
-    <section>
-
+    <section class="Plants_lover container flex">
+      <div class="plants_lover_left">
+        <img src="assets/flower-store.png" alt="">
+      </div>
+      <div class="plants_lover_right">
+        <h3 class="plants_lover_title noto-serif-normal">Flower & Plants <br> Lover</h3>
+        <ul>
+          <li class="plants_lover_items paragraph">Indulge your senses with the beauty and <br>fragrance of our fresh flower shop. From classic <br>roses to exotic blooms, we offer a wide variety <br> of fresh.</li>
+          <li class="plants_lover_items paragraph">Indulge your senses with the beauty and <br>fragrance of our fresh flower shop. From classic <br>roses to exotic blooms, we offer a wide variety <br> of fresh.</li>
+          <li class="plants_lover_items paragraph">Indulge your senses with the beauty and <br>fragrance of our fresh flower shop. From classic <br>roses to exotic blooms, we offer a wide variety <br> of fresh.</li>
+        </ul>
+      </div>
+    </section>
+    <section class="latestdeals container">
+      <div class="latestdeals_top">
+        <h3 class="latestdeals_title noto-serif-normal title"> <span class="yellow">Latest</span>  Deals</h3>
+        <div class="latestdeals_paragraph">
+          <p class=" paragraph">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</p>
+        </div>
+      </div>
+      <div class="latestdeals_bottom flex">
+        <div class="botomitems_left">
+          <div class="item">
+            <img src="assets/deal-bloom.png" alt="">
+            <div class="text">
+              <h3 class="noto-serif-normal left">60% Off | Bloom Plant</h3>
+              <div class="deal_link">
+                <a href="">Shop Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <img src="assets/deal-ana.png" alt="">
+            <div class="text">
+              <h3 class="noto-serif-normal left">30% Off | Ana  Plant</h3>
+              <div class="deal_link">
+                <a href="">Shop Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="botomitems_right">
+          <div class="item">
+            <img src="assets/deal-zabo.png" alt="">
+            <div class="text_right">
+              <h3 class="noto-serif-normal right">25% Off | Zabo Plant</h3>
+              <div class="deal_link_right">
+                <a href="">Shop Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="join flex">
+      <div class="join_container">
+        <h3 class="join_title noto-serif-normal title">Join the colorful Bunch</h3>
+        <div class="textfield">
+          <input type="text" class="join_textfield" placeholder="Write email">
+          <button class="join_btn">Subscribe</button>
+        </div>
+      </div>
     </section>
   </main>
-  <footer>
+  <footer class="footer flex container">
+    <div class="footer_one">
+      <div class="logo">
+        <img src="assets/logo.jpg" alt="" class="logo">
+      </div>
+      <div class="paragraph1">
+        <p class="paragraph">Indulge your senses with the <br> beauty and fragrance of our fresh <br>flower shop. </p>
+      </div>
+    </div>
+    <div class="footer_two">
+      <p class="hyperlink"><a href="" class="link">home</a></p>
+      <p class="hyperlink"><a href="" class="link">About Us</a></p>
+      <p class="hyperlink"><a href="" class="link">Blog</a></p>
+      <p class="hyperlink"><a href="" class="link">FAQ</a></p>
+      <p class="hyperlink"><a href="" class="link">Contact Us</a></p>
+    </div>
+    <div class="footer_three">
+      <p class="hyperlink"><a href="" class="link">Features</a></p>
+      <p class="hyperlink"><a href="" class="link">Pricing</a></p>
+      <p class="hyperlink"><a href="" class="link">Privacy Policy</a></p>
+      <p class="hyperlink"><a href="" class="link">Terms of Service</a></p>
+      <p class="hyperlink"><a href="" class="link">Help Center</a></p>
+    </div>
+    <div class="footer_four flex">
+      <img src="assets/icon-linkedin.png" alt="">
+      <img src="assets/icon-twitter.png" alt="">
+      <img src="assets/icon-facebook.png" alt="">
+      <img src="assets/icon-youtube.png" alt="">
+    </div>
 
   </footer>
   

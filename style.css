@@ -386,6 +386,8 @@ header{
   }
   .Plants_lover{
     flex-direction: column;
+    margin-top: 0px;
+    margin-bottom: 200px;
   }
   .plants_lover_left{
     margin: 0 16px;
@@ -411,6 +413,7 @@ header{
   .trusted{
     display: none;
   }
+
   .latestdeals_paragraph{
     width: 400px;
     height: 68px;
@@ -459,6 +462,12 @@ header{
   .join{
     width: 429px;
     height: 276px;
+  }
+  .join_container{
+    margin-top: 100px;
+  }
+  .join_title{
+    font-size: 20px;
   }
   .join_textfield{
   width: 321px;

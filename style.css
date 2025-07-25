@@ -329,6 +329,10 @@ header{
   .navbar{
     margin: 0 16px;
   }
+  .logo{
+    width:63px ;
+    height:38px;
+  }
   .item{
     display: none;
   }

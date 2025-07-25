@@ -296,8 +296,8 @@ header{
   border: none;
 }
 .footer{
-  margin:0 auto;
-  margin-top:50px ;
+  margin:50px auto;
+  
   justify-content: space-between;
 }
 .link{
@@ -332,6 +332,10 @@ header{
   .logo{
     width:63px ;
     height:38px;
+  }
+  .logo1{
+    width: 180px;
+    height: 109px;
   }
   .item{
     display: none;
